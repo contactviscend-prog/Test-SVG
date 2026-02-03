@@ -1,18 +1,20 @@
 <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <!-- خلفية دائرية بلون #059669 -->
-    <rect x="16" y="16" width="480" height="480" rx="240" fill="#059669"/>
+    <!-- خلفية دائرية بلون أخضر (#059669) -->
+    <circle cx="256" cy="256" r="230" fill="#059669"/>
 
     <!-- شكل الكتاب المفتوح (أبيض) -->
-    <path d="M176 128C176 117.954 184.954 109 195 109H317C327.046 109 336 117.954 336 128V384C336 394.046 327.046 403 317 403H195C184.954 403 176 394.046 176 384V128Z" fill="white"/>
+    <rect x="200" y="160" width="112" height="200" rx="10" fill="white"/>
 
     <!-- خطوط صفحات الكتاب -->
-    <path d="M256 128V403" stroke="#059669" stroke-width="6" stroke-linecap="round"/>
-    <path d="M200 160H240" stroke="#059669" stroke-width="4" stroke-linecap="round"/>
-    <path d="M272 160H312" stroke="#059669" stroke-width="4" stroke-linecap="round"/>
-    <path d="M200 220H240" stroke="#059669" stroke-width="4" stroke-linecap="round"/>
-    <path d="M272 220H312" stroke="#059669" stroke-width="4" stroke-linecap="round"/>
-    <path d="M200 280H240" stroke="#059669" stroke-width="4" stroke-linecap="round"/>
-    <path d="M272 280H312" stroke="#059669" stroke-width="4" stroke-linecap="round"/>
-    <path d="M200 340H240" stroke="#059669" stroke-width="4" stroke-linecap="round"/>
-    <path d="M272 340H312" stroke="#059669" stroke-width="4" stroke-linecap="round"/>
+    <path d="M256 170v180" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
+    <path d="M220 180h25" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
+    <path d="M292 180h-25" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
+    <path d="M220 220h25" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
+    <path d="M292 220h-25" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
+    <path d="M220 260h25" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
+    <path d="M292 260h-25" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
+    <path d="M220 300h25" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
+    <path d="M292 300h-25" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
+    <path d="M220 340h25" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
+    <path d="M292 340h-25" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
 </svg>
