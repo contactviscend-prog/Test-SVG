@@ -1,20 +1,18 @@
 <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
     <!-- خلفية دائرية بلون أخضر (#059669) -->
-    <circle cx="256" cy="256" r="230" fill="#059669"/>
+    <circle cx="256" cy="256" r="220" fill="#059669"/>
 
-    <!-- شكل الكتاب المفتوح (أبيض) -->
-    <rect x="200" y="160" width="112" height="200" rx="10" fill="white"/>
+    <!-- شكل المستطيل الأبيض داخل الدائرة (يمثل القائمة) -->
+    <rect x="200" y="160" width="112" height="192" rx="8" fill="white"/>
 
-    <!-- خطوط صفحات الكتاب -->
-    <path d="M256 170v180" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
-    <path d="M220 180h25" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
-    <path d="M292 180h-25" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
-    <path d="M220 220h25" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
-    <path d="M292 220h-25" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
-    <path d="M220 260h25" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
-    <path d="M292 260h-25" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
-    <path d="M220 300h25" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
-    <path d="M292 300h-25" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
-    <path d="M220 340h25" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
-    <path d="M292 340h-25" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
+    <!-- الخطوط الأفقية داخل المستطيل (تمثيل الصفوف) -->
+    <path d="M216 190H288" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
+    <path d="M216 220H288" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
+    <path d="M216 250H288" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
+    <path d="M216 280H288" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
+    <path d="M216 310H288" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
+    <path d="M216 340H288" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- الخط الرأسي في الوسط (يقسم القائمة إلى قسمين) -->
+    <path d="M256 160V352" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
 </svg>
